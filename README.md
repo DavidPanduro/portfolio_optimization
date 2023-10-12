@@ -69,7 +69,7 @@ Obtendo os seguintes resultados:<br>
    * Portfolio_TN com 32.5%.
    * Portfolio_LB 29%
    * Portfolio_BP 21%
-
+Claramente, a maior taxa de volatidade, maior risco, maiores opçõesde maior taxa de retorno.
 <br><br>
 
 
