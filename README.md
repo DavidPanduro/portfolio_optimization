@@ -23,7 +23,16 @@ Podemos observar os portfólios para ter uma visão mais clara do comportamento 
 A primeira vista, as ações da BBAS3 mostram-se com melhor rendimento ao longo do periodo.<br><br>
 Mas, percebe-se que as linhas tem diferenças significativas, básicamente, porque não estão na mesma escala. Vamos tentar resolver isso, e observar que os comportamentos se mostram de manera diferente, porem, agora sim mostram a realidade e podem ser comparados.<br>
    ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/800a6b54-174e-4bf5-a4ad-5038dd354589)<br>
-   Agora sim, com a apresentação na mesma escala, podemos comparar entre elas. E percebemos que a que obteve melhores resultados foi a CSAN3.
+   Agora sim, com a apresentação na mesma escala, podemos comparar entre elas. E percebemos que a que obteve melhores resultados foi a CSAN3.<br><br>
+Portfólio TN:<br>
+A continuação as empresas que compõem o portfolio TN para ter uma visão mais clara do desempenho.<br>
+   ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/c84adc1c-b1d7-41d2-835f-1503eeb5e130)<br>
+Novamente, em diferentes escalas resulta inviável reconhecer o melhor rendimento ao longo do periodo.<br><br>
+Depois de converter para a mesma escala, o gráfico representa a realidade dos rendimentos das ações das empresas do portfólio.<br>
+   ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/02ad52d1-bee6-4c93-9e36-83975a2a6917)<br>
+   Com a apresentação na mesma escala, percebemos que a que obteve melhores resultados foi a RANI3.
+
+   
 
 
 
