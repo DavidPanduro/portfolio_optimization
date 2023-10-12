@@ -104,7 +104,7 @@ Por medio desta técnica obtimos os seguintes resultados
    ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/e8f1baf7-249c-49f1-aae5-78c61d5416a5)<br><br>
    Destaca-se o Portfólio TN, conseguindo uma distância significativa em relação aos outros portfólios, que no periodo não conseguiram crescer de manera exponencial, objetivo que sim atingiu o Portfólio TN creciendo 5x do capital inicial.<br>
 
-SHARPE RATIO:<br>
+ÍNDICE DE SHARPE RATIO:<br>
 O índice Sharpe Ratio, é uma medida de desempenho de um investimento que leva em consideração o retorno em excesso (retorno acima de um ativo livre de risco) em relação à sua volatilidade. 
 ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/8aa8b25e-6acd-4bf7-a520-a6de9ccba8ca)<br>
 Uma vez aplicada a fórmula, conseguimos os seguintes resultados:
@@ -112,10 +112,32 @@ Uma vez aplicada a fórmula, conseguimos os seguintes resultados:
 * Portfólio TN: 0.78
 * Portfólio BP: 0.31 <br><br>
 
+ALOCAÇÃO COM MODELO MARKOWITZ: <br>
+A alocação de ativos com o modelo de Markowitz envolve a distribuição de recursos em uma carteira de investimentos para otimizar o equilíbrio entre risco e retorno. Usamos a matriz de covariância e o conceito da fronteira eficiente de Markowitz para calcular a alocação de ativos que otimiza o equilíbrio entre risco e retorno.<br>
+![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/4e413e8d-cb71-4eca-8341-cac89f7096de)<br><br>
+   Depois de aplicar o modelo Markowitz, obtemos os seguintes resultados:<br><br>
+   1. PORTFÓLIO LN
+      * Pesos para BBAS3: 7.13
+      * Pesos para BBSE3: 0.65
+      * Pesos para CSAN3: 92.2
+      * RETORNO: 7981.37 <br><br>
+      ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/d0fc8fb7-86e8-4210-a030-d1b944462999)<br><br>
 
+        
+   2. PORTFÓLIO TN
+      * Pesos para RAPT3: 31.27
+      * Pesos para RANI3: 57.64
+      * Pesos para LEVE3: 11.08
+      * RETORNO: 22712.67 <br><br>
+      ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/7d0c50f7-dc62-4247-83a9-beb7203e0905)<br><br>
 
-
-   
+       
+   3. PORTFÓLIO BP
+      * Pesos para ITSA3: 1.12
+      * Pesos para VIVT3: 98.85
+      * Pesos para SAPR11: 0.01
+      * RETORNO: 5807.78 <br><br>
+      ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/cb3ed4ee-3106-4303-9b4d-5d5d5dc19c51)<br><br>
 
 
 
