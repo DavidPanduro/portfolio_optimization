@@ -2,9 +2,9 @@
 Por David Panduro 💻<br><br>
 ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/1ff6e2db-01b1-47f0-b125-a2b674c0581a)<br>
 
-Contexto:<br>
+CONTEXTO:<br>
 Desenvolvemos a otimização de três (03) portfólios composto por ações de três (03) empresas (que no inicio do 2023 foram sugeridos por reconhecidos Investidores Brasileiros, que não serão explícitamente mencionados 👀) da bolsa brasileira 🇧🇷, aplicando algoritmos de otimização e aprendizagem profunda em cenários de risco não sistemático, analisando os riscos e procurando maximizar os rendimentos do portfólio ao final do período. <br> <br>
-Bases: <br> 
+BASES: <br> 
 No estudo, consideramos dados de movimentações da Bolsa Brasileira, no período desde 2018-01-01 até 2023-06-30. Totalizando cinco (05) anos, mais os restantes seis (06) meses do 2023.<br><br>
 Portfólios:<br> Os portfólios estão compostos pelas seguintes empresas:<br>
 1. Portfólio_LB. [BB Seguridade, Banco do Brasil, Cosan].<br>
@@ -17,28 +17,28 @@ Portfólios:<br> Os portfólios estão compostos pelas seguintes empresas:<br>
    ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/7cf26b33-d09e-45ef-a594-4ca32014a2fa)<br><br>
 
 
-Portfólio LB:<br>
+PORTFÓLIO LB:<br>
 Podemos observar os portfólios para ter uma visão mais clara do comportamento das ações de empresas que o conformam.<br>
 ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/62460459-8cde-4074-9b01-98fff842f959)<br>
 A primeira vista, as ações da BBAS3 mostram-se com melhor rendimento ao longo do periodo.<br><br>
 Mas, percebe-se que as linhas tem diferenças significativas, básicamente, porque não estão na mesma escala. Vamos tentar resolver isso, e observar que os comportamentos se mostram de manera diferente, porem, agora sim mostram a realidade e podem ser comparados.<br>
    ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/800a6b54-174e-4bf5-a4ad-5038dd354589)<br>
    Agora sim, com a apresentação na mesma escala, podemos comparar entre elas. E percebemos que a que obteve melhores resultados foi a CSAN3.<br><br>
-Portfólio TN:<br>
+PORTFÓLIO TN:<br>
 A continuação as empresas que compõem o portfolio TN para ter uma visão mais clara do desempenho.<br>
    ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/c84adc1c-b1d7-41d2-835f-1503eeb5e130)<br>
 Novamente, em diferentes escalas resulta inviável reconhecer o melhor rendimento ao longo do periodo.<br><br>
 Depois de converter para a mesma escala, o gráfico representa a realidade dos rendimentos das ações das empresas do portfólio.<br>
    ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/02ad52d1-bee6-4c93-9e36-83975a2a6917)<br>
    Com a apresentação na mesma escala, percebemos que a que obteve melhores resultados foi a RANI3.<br><br>
-Portfólio BP:<br>
+PORTFÓLIO BP:<br>
 Por fim, o histórico das ações das empresas do portfólio BP ao longo do periodo.<br>   
    ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/a7779d9d-035c-42e2-aa14-f2837c5302a7)<br>
    Mas, como nos casos anteriores, precisamos aplicar a normalização para trazer a mesma escala.<br><br>
    ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/8aba2f6c-f2f3-49fe-b40e-1c8e125ac2d9)<br>
    E assim percebemos que as ações da VIVT3 conseguiram um melhor rendimento dentro do periodo histórico.<br><br>
 
-Taxas de Retorno de Portfólios:<br> A princípio, definiremos aleatóriamente os pesos para as carteiras de manera igualmente distribuido, e na sequencia aplicaremos esses pesos para saber quais seriam as nossas taxas de retorno ao longo do periodo.<br>
+TAXAS DE RETORNO:<br> A princípio, definiremos aleatóriamente os pesos para as carteiras de manera igualmente distribuido, e na sequencia aplicaremos esses pesos para saber quais seriam as nossas taxas de retorno ao longo do periodo.<br>
 Para fins ilustrativos aplicaremos os seguintes pesos:<br>
 **pesos_carteira = np.array([0.36, 0.32,0.32])** <br><br>
 Aplicaremos a seguinte fórmula: retorno_carteira_lb = **(df_normalizado / df_normalizado.shift(1)) -1** <br>
@@ -52,7 +52,7 @@ A taxa de retorno mais promissora, com esses pesos distribuidos aleatóriamente,
 ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/6eab4132-1c29-4900-909f-b1f7f186c8ce)<br>
 No gráfico podemos observar os três (03) portfólios normalizados, confirmando o melhor comportamento de taxa de retorno do Portfólio_TN, conseguindo performar e capitalizar pós Pandemia <br><br>
 
-Cálculo de riscos de ações e portfólios:<br> 
+CÁLCULO DE RISCOS DOS PORTFÓLIOS:<br> 
 Para calcular o risco basearemos o estudo na aplicação dos conceitos de variância, desvio padrão e coeficiente de variação, assim como covariância e correlação (normalmente, os portfólios com empresas do mesmo setor apresentam correlações entre elas). <br> Calculamos o risco medio anual para cada um dos portfólios, assim como a volatilidade dos portfólios por meio do cálculo de covariância e desvio padrão. 
 
    ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/7917c647-3b30-4bb5-9a20-75faf3ae47ad)<BR>
@@ -63,7 +63,14 @@ Para calcular o risco basearemos o estudo na aplicação dos conceitos de variâ
 Agora, mostramos o gráfico de correlações de cada um dos portfólios:<br>
 ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/a57ab0ae-52f8-4561-8774-4f5af6d2b9fd)<br>
 Nas correlações faz total sentido ter esse grau de correlação entre as empresas do Portfólio LB já que temos uma empresa que representa um grande banco brasileiro e outra empresa que não deixa de ser um braço de atuação do mesmo banco. Cabe salientar que é uma correlação intermédia e não extremamente forte<br> <br>
+VOLATILIDADE DOS PORTFÓLIOS:<br>
+A volatilidade de cada um dos portfólios será calculado aplicando o desvio padrão da nossa taxa de retorno: volatilidade_portfolio = **math.sqrt(np.dot(pesos_carteira, np.dot(taxa_retorno.cov()* 246, pesos_carteira)))** <br>
+Obtendo os seguintes resultados:<br>
+   * Portfolio_TN com 32.5%.
+   * Portfolio_LB 29%
+   * Portfolio_BP 21%
 
+<br><br>
 
 
 
