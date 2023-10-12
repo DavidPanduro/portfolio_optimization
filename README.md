@@ -208,7 +208,22 @@ A previsão de preços com um Multilayer Perceptron (MLP) envolve o uso de uma r
    ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/70873e8f-1d37-4064-aac1-1eee5883b308)<br>
 A nossa linha de previsão segue o padrão da linha de valores reais. Podemos avaliar melhor mediante uma métrica formal.<br>
    ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/3a61ae0f-c52e-4579-bf7b-976ccd1bb21c)<br><br>
-Isso significa que, em média, os erros entre as previsões do modelo e os valores reais têm um quadrado médio de 0.1609 e que, com esse MAPE, em média, as previsões do modelo estão, em média, 1.77% afastadas dos valores reais.
+Isso significa que, em média, os erros entre as previsões do modelo e os valores reais têm um quadrado médio de 0.1609 e que, com esse MAPE, em média, as previsões do modelo estão, em média, 1.77% afastadas dos valores reais.<br><br>
+
+PREVISÃO DE PREÇOS COM LONG SHORT TERM  LSTM:<BR>
+A previsão de preços com redes neurais recorrentes (RNN), como Long Short-Term Memory (LSTM), é uma abordagem poderosa para prever preços de ativos financeiros ou séries temporais em geral<BR> A previsão de preços com LSTM é uma abordagem que pode capturar relações temporais e complexas nos dados, tornando-a adequada para séries temporais financeiras. No entanto, é importante lembrar que prever preços de ativos financeiros é um desafio e que os resultados podem variar com base em vários fatores, incluindo a qualidade dos dados e a escolha da arquitetura da rede. <br>
+Vamos configurar o número de camadas LSTM, o número de neurônios em cada camada, a função de ativação e outras configurações específicas.<br><br>
+   ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/ca9ac6f8-9bb8-48af-adaa-0bd57608a104)<br>
+Agora, no treinamento mostraremos as últimas Epoch<br>
+   ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/ddf63583-2d84-42ac-9157-fa4793d5c7f1)<br><br>
+Para finalmente mostrar as previsões:<br>
+   ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/facb6dd9-086f-4f40-81ba-d34b2652a4ce)<br>
+E as métricas consdieradas:<br>
+   ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/9ad9400e-712b-4e2a-a30c-47e668022f84)<br><br>
+   <br>
+   <br>
+
+
 
 
 
