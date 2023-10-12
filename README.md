@@ -219,7 +219,8 @@ Agora, no treinamento mostraremos as últimas Epoch<br>
 Para finalmente mostrar as previsões:<br>
    ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/facb6dd9-086f-4f40-81ba-d34b2652a4ce)<br>
 E as métricas consdieradas:<br>
-   ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/9ad9400e-712b-4e2a-a30c-47e668022f84)<br><br>
+   * RMSE: 0.0205
+   * MSE: 0.000421<br><br>
    <br>
    <br>
 
