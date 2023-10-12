@@ -86,7 +86,7 @@ Neste apartado DEFINIMOS pesos, calculamos o Sharpe Ratio (que é usado para med
    2. Hill Climb (subida da encosta).
    3. Simulated Anneling (têmpera simulada).<br><br>
    
-Alocação Randômica:<br>
+ALOCAÇÃO RANDÔMICA:<br>
 Por medio desta técnica obtimos os seguintes resultados
 
    ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/b3c77412-4df3-44c2-bad6-f05c5d23cfd5)<br>
@@ -96,6 +96,18 @@ Por medio desta técnica obtimos os seguintes resultados
    ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/655d1169-b3f7-41ee-a868-2a8c476874f1)<br>
    O método acabou definindo os seguintes PESOS:<br>
    ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/1d577cc1-153c-4739-b02f-c357f58fb7e4)<br><br>
+
+   ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/0129bf46-e57d-4677-9e06-35a665ece8bd)<BR>
+   O método acabou definindo os seguintes PESOS:<br>
+   ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/7d2f5e50-15ba-4a94-b0e5-72fef5f5d2a0)<br><br>
+   Finalmente, podemos observer em reais a evolução do patrimônio dos portfólios no periodo.<br>
+   ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/e8f1baf7-249c-49f1-aae5-78c61d5416a5)<br><br>
+
+   
+   
+
+
+   
 
 
 
