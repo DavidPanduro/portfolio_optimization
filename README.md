@@ -41,6 +41,14 @@ Por fim, o histórico das ações das empresas do portfólio BP ao longo do peri
 Taxas de Retorno de Portfólios:<br> A princípio, definiremos aleatóriamente os pesos para as carteiras de manera igualmente distribuido, e na sequencia aplicaremos esses pesos para saber quais seriam as nossas taxas de retorno ao longo do periodo.<br>
 Para fins ilustrativos aplicaremos os seguintes pesos:<br>
 **pesos_carteira = np.array([0.36, 0.32,0.32])** <br><br>
+Aplicaremos a seguinte fórmula: retorno_carteira_lb = **(df_normalizado / df_normalizado.shift(1)) -1** <br>
+Essa é a taxa de retorno simples, já que estamos fazendo comparativo em um mesmo periodo de tempo para várias empresas.<br>
+Na sequencia, fazemos o calculo anual: retorno_anual = retorno_carteira.mean( ) * 246; normalmente aplica-se 246 dias de operação no ano.<br>
+E assim, obtemos os seguintes resultados de taxa de retorno:<br><br>
+* Portfólio_LB: 11.77
+* Portfólio_TN: 28.94
+* Portfólio_BP: 5.38
+A taxa de retorno mais promissora, com esses pesos distribuidos, seria o Portfolio_TN com taxa de retorno anual de 28.94
 
 
 
