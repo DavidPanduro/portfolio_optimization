@@ -93,6 +93,12 @@ Por medio desta técnica obtimos os seguintes resultados
    O método acabou definindo os seguintes PESOS:<br>
    ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/afda98d6-c221-4742-8356-074d6956d86f)<br><br>
 
+   ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/655d1169-b3f7-41ee-a868-2a8c476874f1)<br>
+   O método acabou definindo os seguintes PESOS:<br>
+   ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/1d577cc1-153c-4739-b02f-c357f58fb7e4)<br><br>
+
+
+
    
 
 
