@@ -7,9 +7,15 @@ Desenvolvemos a otimização de três (03) portfólios composto por 03 empresas 
 Bases: <br> 
 No estudo, consideramos dados de movimentações da Bolsa Brasileira, no período desde 2018-01-01 até 2023-06-30. Totalizando cinco (05) anos, mais os restantes seis (06) meses do 2023.<br><br>
 Portfólios:<br> Os portfólios estão compostos pelas seguintes empresas:<br>
-1. Portfólio_LB. [BB Seguridade, Banco do Brasil, Cosan].
-2. Portfólio_TN. [RAPT3, RANI3, LEVE3]
-3. Portfólio_BP. [Itausa, Vivo, Sanepa]<br><br>
+1. Portfólio_LB. [BB Seguridade, Banco do Brasil, Cosan].<br>
+   ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/6f6e98f8-dbdd-484f-8a7e-89030a2c8ff1)<br><br>
+
+2. Portfólio_TN. [RAPT3, RANI3, LEVE3]<br>
+   ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/cc524e0e-a471-4054-b6e6-e3334131f632)<br><br>
+
+3. Portfólio_BP. [Itausa, Vivo, Sanepa]<br>
+   ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/7cf26b33-d09e-45ef-a594-4ca32014a2fa)<br><br>
+
 
 Algoritmos de Otimização:<br>
 No estudo, aplicaremos os seguintes métodos:
