@@ -178,7 +178,7 @@ Aplicando o método obtemos os seguintes resultados:<br><br>
       * Pesos para VIVT3: 90.90
       * Pesos para SAPR11: 9.09
       * RETORNO: 5758.49 <br><br>  
-   Os resultados do método Simulated Annealing foram levemente menores que os resultados do Hill Climb, isso pode-se dever 
+Os resultados do método Simulated Annealing foram levemente menores que os resultados do Hill Climb, isso pode-se dever a falta de profundidade na hora da procura dos pesos, para seguintes oportunidades poderiamos colocar um maior número de iterações para conseguir aproveitar ao máximo o potencial dos algoritmos de otimização.
 
 PREVISÃO DE PREÇOS:<br>
 Neste ponto aplicaremos tanto a simulação de Monte Carlo e Arima para comparação de resultados com o algoritmo de aprendizagem profunda Long Short Term Memory. 
