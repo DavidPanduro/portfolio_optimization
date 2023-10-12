@@ -50,7 +50,7 @@ E assim, obtemos os seguintes resultados de taxa de retorno:<br><br>
 * Portfólio_BP: 5.38 <br>
 A taxa de retorno mais promissora, com esses pesos distribuidos aleatóriamente, seria o Portfolio_TN com taxa de retorno anual de 28.94<br><br>
 ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/6eab4132-1c29-4900-909f-b1f7f186c8ce)<br>
-No gráfico podemos observar os três (03) portfólios normalizados, confirmando o melhor comportamento de taxa de retorno do Portfólio_TN <br><br>
+No gráfico podemos observar os três (03) portfólios normalizados, confirmando o melhor comportamento de taxa de retorno do Portfólio_TN, conseguindo performar e se recuperar depois da Pandemia <br><br>
 
 
 
