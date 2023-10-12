@@ -102,9 +102,17 @@ Por medio desta técnica obtimos os seguintes resultados
    ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/7d2f5e50-15ba-4a94-b0e5-72fef5f5d2a0)<br><br>
    Finalmente, podemos observer em reais a evolução do patrimônio dos portfólios no periodo.<br>
    ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/e8f1baf7-249c-49f1-aae5-78c61d5416a5)<br><br>
+   Destaca-se o Portfólio TN, conseguindo uma distância significativa em relação aos outros portfólios, que no periodo não conseguiram crescer de manera exponencial, objetivo que sim atingiu o Portfólio TN creciendo 5x do capital inicial.<br>
 
-   
-   
+SHARPE RATIO:<br>
+O índice Sharpe Ratio, é uma medida de desempenho de um investimento que leva em consideração o retorno em excesso (retorno acima de um ativo livre de risco) em relação à sua volatilidade. 
+![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/8aa8b25e-6acd-4bf7-a520-a6de9ccba8ca)<br>
+Uma vez aplicada a fórmula, conseguimos os seguintes resultados:
+* Portfólio LB: 0.35
+* Portfólio TN: 0.78
+* Portfólio BP: 0.31 <br><br>
+
+
 
 
    
