@@ -62,6 +62,7 @@ Para calcular o risco basearemos o estudo na aplicação dos conceitos de variâ
 * O Portfolio_LB acaba sendo Moderado, com media de 0.35 de risco.<br><br>
 Agora, mostramos o gráfico de correlações de cada um dos portfólios:<br>
 ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/a57ab0ae-52f8-4561-8774-4f5af6d2b9fd)<br>
+Nas correlações faz total sentido ter esse grau de correlação entre as empresas do Portfólio LB já que temos uma empresa que representa um grande banco brasileiro e outra empresa que não deixa de ser um braço de atuação do mesmo banco. Cabe salientar que é uma correlação intermédia e não extremamente forte<br> <br>
 
 
 
