@@ -38,7 +38,10 @@ Por fim, o histórico das ações das empresas do portfólio BP ao longo do peri
    ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/8aba2f6c-f2f3-49fe-b40e-1c8e125ac2d9)<br>
    E assim percebemos que as ações da VIVT3 conseguiram um melhor rendimento dentro do periodo histórico.<br><br>
 
-   
+Taxas de Retorno de Portfólios: A princípio, definiremos aleatóriamente os pesos para as carteiras de manera igualmente distribuido, e na sequencia aplicaremos esses pesos para saber quais seriam as nossas taxas de retorno ao longo do periodo.<br>
+Para fins ilustrativos aplicaremos os seguintes pesos:<br>
+pesos_carteira = np.array([0.36, 0.32,0.32])<br><br>
+
 
 
 
