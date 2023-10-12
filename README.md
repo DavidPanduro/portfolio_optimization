@@ -47,8 +47,11 @@ Na sequencia, fazemos o calculo anual: retorno_anual = retorno_carteira.mean( ) 
 E assim, obtemos os seguintes resultados de taxa de retorno:<br><br>
 * Portfólio_LB: 11.77
 * Portfólio_TN: 28.94
-* Portfólio_BP: 5.38
-A taxa de retorno mais promissora, com esses pesos distribuidos, seria o Portfolio_TN com taxa de retorno anual de 28.94
+* Portfólio_BP: 5.38 <br>
+A taxa de retorno mais promissora, com esses pesos distribuidos aleatóriamente, seria o Portfolio_TN com taxa de retorno anual de 28.94<br><br>
+![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/6eab4132-1c29-4900-909f-b1f7f186c8ce)<br>
+No gráfico podemos observar os três (03) portfólios normalizados, confirmando o melhor comportamento de taxa de retorno do Portfólio_TN <br><br>
+
 
 
 
