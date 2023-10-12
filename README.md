@@ -19,7 +19,7 @@ Portfólios:<br> Os portfólios estão compostos pelas seguintes empresas:<br>
 
 PORTFÓLIO LB:<br>
 Podemos observar os portfólios para ter uma visão mais clara do comportamento das ações de empresas que o conformam.<br>
-![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/62460459-8cde-4074-9b01-98fff842f959)<br>
+   ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/62460459-8cde-4074-9b01-98fff842f959)<br>
 A primeira vista, as ações da BBAS3 mostram-se com melhor rendimento ao longo do periodo.<br><br>
 Mas, percebe-se que as linhas tem diferenças significativas, básicamente, porque não estão na mesma escala. Vamos tentar resolver isso, e observar que os comportamentos se mostram de manera diferente, porem, agora sim mostram a realidade e podem ser comparados.<br>
    ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/800a6b54-174e-4bf5-a4ad-5038dd354589)<br>
@@ -49,7 +49,7 @@ E assim, obtemos os seguintes resultados de taxa de retorno:<br><br>
 * Portfólio_TN: 28.94
 * Portfólio_BP: 5.38 <br>
 A taxa de retorno mais promissora, com esses pesos distribuidos aleatóriamente, seria o Portfolio_TN com taxa de retorno anual de 28.94<br><br>
-![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/6eab4132-1c29-4900-909f-b1f7f186c8ce)<br>
+   ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/6eab4132-1c29-4900-909f-b1f7f186c8ce)<br>
 No gráfico podemos observar os três (03) portfólios normalizados, confirmando o melhor comportamento de taxa de retorno do Portfólio_TN, conseguindo performar e capitalizar pós Pandemia <br><br>
 
 CÁLCULO DE RISCOS DOS PORTFÓLIOS:<br> 
@@ -61,20 +61,24 @@ Para calcular o risco basearemos o estudo na aplicação dos conceitos de variâ
 * O Portfolio_BP é o mais Conservador, com media de 0.28 de risco.
 * O Portfolio_LB acaba sendo Moderado, com media de 0.35 de risco.<br><br>
 Agora, mostramos o gráfico de correlações de cada um dos portfólios:<br>
-![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/a57ab0ae-52f8-4561-8774-4f5af6d2b9fd)<br>
-Nas correlações faz total sentido ter esse grau de correlação entre as empresas do Portfólio LB já que temos uma empresa que representa um grande banco brasileiro e outra empresa que não deixa de ser um braço de atuação do mesmo banco. Cabe salientar que é uma correlação intermédia e não extremamente forte<br> <br>
+   ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/a57ab0ae-52f8-4561-8774-4f5af6d2b9fd)<br>
+Nas correlações faz total sentido ter esse grau de correlação entre as empresas do Portfólio LB já que temos uma empresa que representa um grande banco brasileiro e outra empresa que não deixa de ser um braço de atuação do mesmo banco. Cabe salientar que é uma correlação intermédia e não extremamente forte<br> <br><br>
+
 VOLATILIDADE DOS PORTFÓLIOS:<br>
 A volatilidade de cada um dos portfólios será calculado aplicando o desvio padrão da nossa taxa de retorno: <br> volatilidade_portfolio = **math.sqrt(np.dot(pesos_carteira, np.dot(taxa_retorno.cov()* 246, pesos_carteira)))** <br>
 Obtendo os seguintes resultados:<br>
    * Portfolio_TN com 32.5%.
    * Portfolio_LB 29%
    * Portfolio_BP 21%
-Claramente, a maior taxa de volatidade, maior risco, maiores opçõesde maior taxa de retorno.
-<br><br>
+Claramente, a maior taxa de volatidade, maior risco, maiores opçõesde maior taxa de retorno.<br><br>
 
-
-
-
+RISCO NÃO SISTEMÁTICO DOS PORTFÓLIOS:<br>
+Este tipo de risco, responde a eventos específicos na empresa e depende do tipo de empresa. Em contrapartida com o risco sistemático, que responde a eventos externos, não pode ser eliminado e afeta a todas as empresas, podem ser resultado de eventos como recessão da economia (neste estudo não abordaremos este tipo de riscos).<br>
+Para o cãlculo deste risco não sistemático, precisamos definir os pesos, calcular a variância anual e multiplicar pelos pesos, calcular a substração das variâncias e por último o <br>risco não sistemático é a **((variância do portfólio) - (substração das variâncias))** <br><br>
+* Portfolio_TN sai na frente com 0.22
+* Portfolio_LB que é o mais próximo com 0.10
+* Portfolio_BP recua com 0.075<br><br>
+Podemos comparar essa métrica com a Volatilidade e inclusive usar ambas métricas para analisar o risco dos portfólios.<br><br>
 
 Algoritmos de Otimização:<br>
 No estudo, aplicaremos os seguintes métodos:
