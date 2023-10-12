@@ -197,10 +197,10 @@ Por outra parte, para o Portfólio TN, específicamente nas ações BBAS3, temos
 Com essas simulações, podemos planejar alguma estrategia para enfrentar o melhor ou pior cenário futuro.<br><br>
 
 Sobre essas previsões aplicamos o cálculo do "erro" e dos "intervalos de confiança" para 80% e 95%<br>
-![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/6eda9f42-23da-4ce7-b006-9283156c3409)<br>
-![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/26a50384-ed98-470c-ba99-a6d22c6e1ee6)<br><br>
+   ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/6eda9f42-23da-4ce7-b006-9283156c3409)<br>
+   ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/26a50384-ed98-470c-ba99-a6d22c6e1ee6)<br><br>
 Para finalmente termos o melhor e pior cenário ou previsão:<br>
-![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/ae0b177e-575f-4f6e-b62a-883678730fe7)<br><br>
+   ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/ae0b177e-575f-4f6e-b62a-883678730fe7)<br><br>
 
 
 
