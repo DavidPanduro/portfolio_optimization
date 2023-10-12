@@ -19,9 +19,11 @@ Portfólios:<br> Os portfólios estão compostos pelas seguintes empresas:<br>
 
 Portfólio LB:<br>
 Podemos observar os portfólios para ter uma visão mais clara do comportamento das ações de empresas que o conformam.<br>
-![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/62460459-8cde-4074-9b01-98fff842f959)<br><br>
+![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/62460459-8cde-4074-9b01-98fff842f959)<br>
+A primeira vista, as ações da BBAS3 mostram-se com melhor rendimento ao longo do tempo.<br><br>
 Mas, percebe-se que as linhas tem diferenças significativas, básicamente, porque não estão na mesma escala. Vamos tentar resolver isso, e observar que os comportamentos se mostram de manera diferente, porem, agora sim mostram a realidade e podem ser comparados na mesma escala.<br>
-   ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/800a6b54-174e-4bf5-a4ad-5038dd354589)
+   ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/800a6b54-174e-4bf5-a4ad-5038dd354589)<br>
+   Agora sim, com a apresentação na mesma escala, podemos comparar entre elas. E percebemos que a que obteve melhores resultados foi a CSAN3.
 
 
 
