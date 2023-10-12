@@ -201,6 +201,17 @@ Sobre essas previsões aplicamos o cálculo do "erro" e dos "intervalos de confi
    ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/26a50384-ed98-470c-ba99-a6d22c6e1ee6)<br><br>
 Para finalmente termos o melhor e pior cenário ou previsão:<br>
    ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/ae0b177e-575f-4f6e-b62a-883678730fe7)<br><br>
+Também mostramos as previsões de preços das ações RANI3 do Portfólio TN<br>
+   ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/a2478188-25c2-4522-a955-bece93b38ffd)<br><br>
+PREVISÃO DE PREÇOS COM MULTILAYER PERCEPTRON MLP:<br>
+A previsão de preços com um Multilayer Perceptron (MLP) envolve o uso de uma rede neural feedforward para prever os preços futuros de um ativo financeiro, como ações, moedas ou commodities.
+   ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/70873e8f-1d37-4064-aac1-1eee5883b308)<br>
+A nossa linha de previsão segue o padrão da linha de valores reais. Podemos avaliar melhor mediante uma métrica formal.<br>
+   ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/3a61ae0f-c52e-4579-bf7b-976ccd1bb21c)<br><br>
+Isso significa que, em média, os erros entre as previsões do modelo e os valores reais têm um quadrado médio de 0.1609 e que, com esse MAPE, em média, as previsões do modelo estão, em média, 1.77% afastadas dos valores reais.
+
+
+
 
 
 
