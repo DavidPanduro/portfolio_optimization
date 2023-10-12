@@ -116,7 +116,7 @@ ALOCAÇÃO COM MODELO MARKOWITZ: <br>
 A alocação de ativos com o modelo de Markowitz envolve a distribuição de recursos em uma carteira de investimentos para otimizar o equilíbrio entre risco e retorno. Usamos a matriz de covariância e o conceito da fronteira eficiente de Markowitz para calcular a alocação de ativos que otimiza o equilíbrio entre risco e retorno.<br>
 ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/4e413e8d-cb71-4eca-8341-cac89f7096de)<br><br>
    Depois de aplicar o modelo Markowitz, obtemos os seguintes resultados:<br><br>
-   1. PORTFÓLIO LN
+   1. PORTFÓLIO LB
       * Pesos para BBAS3: 7.13
       * Pesos para BBSE3: 0.65
       * Pesos para CSAN3: 92.2
@@ -139,12 +139,46 @@ A alocação de ativos com o modelo de Markowitz envolve a distribuição de rec
       * RETORNO: 5807.78 <br><br>
       ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/cb3ed4ee-3106-4303-9b4d-5d5d5dc19c51)<br><br>
 
+MÉTODO HILL CLIMB (SUBIDA DE ENCOSTA): <br>
+O método Hill Climbing é um algoritmo de otimização utilizado em problemas de busca heurística, onde o objetivo é encontrar a melhor solução em um espaço de busca, geralmente caracterizado por um espaço de estados e uma função de avaliação (função de custo) que atribui um valor a cada possível solução. Aplicando o método obtemos os seguintes resultados:<br><br>
+   1. PORTFÓLIO LB
+      * Pesos para BBAS3: 100.0
+      * Pesos para BBSE3: 0.0
+      * Pesos para CSAN3: 0.0
+      * RETORNO: 7163.68 <br><br>
+   2. PORTFÓLIO TN
+      * Pesos para RAPT3: 0.0
+      * Pesos para RANI3: 100.0
+      * Pesos para LEVE3: 0.0
+      * RETORNO: 32321.42 <br><br>
+       
+   3. PORTFÓLIO BP
+      * Pesos para ITSA3: 0.0
+      * Pesos para VIVT3: 99.98
+      * Pesos para SAPR11: 0.01
+      * RETORNO: 5812.75 <br><br>
+   Os resultados do método Hill Climb ficaram muito parecidos em dois (02) portfólios em relação ao Método de Alocação Randômico. Já no Portfólio TN foi superior ao seu concorrente, crescendo em 30% aproximadamente.
 
+SIMULATED ANNEALING (TÊMPERA SIMULADA):<br>
+O Simulated Annealing é um algoritmo de otimização probabilística inspirado no processo físico de recozimento de metais, onde um material é gradualmente resfriado para alcançar um estado de menor energia e maior ordenação. Esse método é usado para encontrar soluções aproximadamente ótimas em problemas de otimização, especialmente quando a paisagem de busca é complexa, possui muitos mínimos locais e a função de custo é ruidosa ou não diferenciável.<br>
+Aplicando o método obtemos os seguintes resultados:<br><br>
+   1. PORTFÓLIO LB
+      * Pesos para BBAS3: 0.0
+      * Pesos para BBSE3: 100.0
+      * Pesos para CSAN3: 0.0
+      * RETORNO: 5437.28 <br><br>
+   2. PORTFÓLIO TN
+      * Pesos para RAPT3: 0.0
+      * Pesos para RANI3: 100.0
+      * Pesos para LEVE3: 0.0
+      * RETORNO: 32321.42 <br><br>
+       
+   3. PORTFÓLIO BP
+      * Pesos para ITSA3: 0.0
+      * Pesos para VIVT3: 90.90
+      * Pesos para SAPR11: 9.09
+      * RETORNO: 5758.49 <br><br>  
+   Os resultados do método Simulated Annealing foram levemente menores que os resultados do Hill Climb, isso pode-se dever 
 
-   
-
-
-Previsão de Preços:<br>
+PREVISÃO DE PREÇOS:<br>
 Neste ponto aplicaremos tanto a simulação de Monte Carlo e Arima para comparação de resultados com o algoritmo de aprendizagem profunda Long Short Term Memory. 
-
-Finalmente, apresentaremos um quandro de resumo contendo os resultados obtidos assim como os gráficos dos nossos rendimentos simulados.
