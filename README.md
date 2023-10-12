@@ -52,6 +52,18 @@ A taxa de retorno mais promissora, com esses pesos distribuidos aleatóriamente,
 ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/6eab4132-1c29-4900-909f-b1f7f186c8ce)<br>
 No gráfico podemos observar os três (03) portfólios normalizados, confirmando o melhor comportamento de taxa de retorno do Portfólio_TN, conseguindo performar e capitalizar pós Pandemia <br><br>
 
+Cálculo de riscos de ações e portfólios:<br> 
+Para calcular o risco basearemos o estudo na aplicação dos conceitos de variância, desvio padrão e coeficiente de variação, assim como covariância e correlação (normalmente, os portfólios com empresas do mesmo setor apresentam correlações entre elas). <br> Calculamos o risco medio anual para cada um dos portfólios, assim como a volatilidade dos portfólios por meio do cálculo de covariância e desvio padrão. 
+
+   ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/7917c647-3b30-4bb5-9a20-75faf3ae47ad)<BR>
+   Atenção no Portfólio_TN, onde acabamos apostando mais do que o 50% numa empresa, chegando a 0.61 de taxa de retorno, e no global podemos mencionar as seguintes observações:<br>
+* O Portfolio_TN é o mais Arrojado, com media de 0.47 de risco.
+* O Portfolio_BP é o mais Conservador, com media de 0.28 de risco.
+* O Portfolio_LB acaba sendo Moderado, com media de 0.35 de risco.<br><br>
+Agora, mostramos o gráfico de correlações de cada um dos portfólios:<br>
+![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/a57ab0ae-52f8-4561-8774-4f5af6d2b9fd)<br>
+
+
 
 
 
