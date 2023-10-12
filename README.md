@@ -69,7 +69,7 @@ A volatilidade de cada um dos portfólios será calculado aplicando o desvio pad
 Obtendo os seguintes resultados:<br>
    * Portfolio_TN com 32.5%.
    * Portfolio_LB 29%
-   * Portfolio_BP 21%
+   * Portfolio_BP 21% <br><br>
 Claramente, a maior taxa de volatidade, maior risco, maiores opçõesde maior taxa de retorno.<br><br>
 
 RISCO NÃO SISTEMÁTICO DOS PORTFÓLIOS:<br>
@@ -80,11 +80,21 @@ Para o cãlculo deste risco não sistemático, precisamos definir os pesos, calc
 * Portfolio_BP recua com 0.075<br><br>
 Podemos comparar essa métrica com a Volatilidade e inclusive usar ambas métricas para analisar o risco dos portfólios.<br><br>
 
-Algoritmos de Otimização:<br>
-No estudo, aplicaremos os seguintes métodos:
-1. Aleátorização.
-2. Hill Climb.
-3. Simulated Anneling
+ALGORITMOS DE OTIMIZAÇÃO:<br>
+Neste apartado DEFINIMOS pesos, calculamos o Sharpe Ratio (que é usado para medir o desempenho de uma carteira de ações) que no seu cálculo também utiliza o risco, também adicionamos o cálculo de Markowitz, para finalmente aplicar: <br>
+   1. Alocação randômica de pesos para maximizar o valor do Sharpe Ratio.
+   2. Hill Climb (subida da encosta).
+   3. Simulated Anneling (têmpera simulada).<br><br>
+   
+Alocação Randômica:<br>
+Por medio desta técnica obtimos os seguintes resultados
+
+   ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/b3c77412-4df3-44c2-bad6-f05c5d23cfd5)<br>
+   O método acabou definindo os seguintes PESOS:<br>
+   ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/afda98d6-c221-4742-8356-074d6956d86f)<br><br>
+
+   
+
 
 Previsão de Preços:<br>
 Neste ponto aplicaremos tanto a simulação de Monte Carlo e Arima para comparação de resultados com o algoritmo de aprendizagem profunda Long Short Term Memory. 
