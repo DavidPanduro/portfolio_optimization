@@ -30,7 +30,13 @@ A continuação as empresas que compõem o portfolio TN para ter uma visão mais
 Novamente, em diferentes escalas resulta inviável reconhecer o melhor rendimento ao longo do periodo.<br><br>
 Depois de converter para a mesma escala, o gráfico representa a realidade dos rendimentos das ações das empresas do portfólio.<br>
    ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/02ad52d1-bee6-4c93-9e36-83975a2a6917)<br>
-   Com a apresentação na mesma escala, percebemos que a que obteve melhores resultados foi a RANI3.
+   Com a apresentação na mesma escala, percebemos que a que obteve melhores resultados foi a RANI3.<br><br>
+Portfólio BP:<br>
+Por fim, o histórico das ações das empresas do portfólio BP ao longo do periodo.<br>   
+   ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/a7779d9d-035c-42e2-aa14-f2837c5302a7)<br>
+   Mas, como nos casos anteriores, precisamos aplicar a normalização para trazer a mesma escala.<br><br>
+   ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/8aba2f6c-f2f3-49fe-b40e-1c8e125ac2d9)<br>
+   E assim percebemos que as ações da VIVT3 conseguiram um melhor rendimento dentro do periodo histórico.<br><br>
 
    
 
