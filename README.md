@@ -4,6 +4,8 @@ Por David Panduro 💻<br><br>
 
 CONTEXTO:<br>
 Desenvolvemos a otimização de três (03) portfólios composto por ações de três (03) empresas (que no inicio do 2023 foram sugeridos por reconhecidos Investidores Brasileiros, que não serão explícitamente mencionados 👀) da bolsa brasileira 🇧🇷, aplicando algoritmos de otimização e aprendizagem profunda em cenários de risco não sistemático, analisando os riscos e procurando maximizar os rendimentos do portfólio ao final do período. <br> <br>
+OBJETIVO:<br>
+O objetivo é encontrar a alocação de ativos que maximize o retorno esperado ou minimize o risco, considerando restrições específicas. A combinação de deep learning e algoritmos genéticos é uma abordagem interessante para abordar esse problema complexo. <br><br>
 BASES: <br> 
 No estudo, consideramos dados de movimentações da Bolsa Brasileira, no período desde 2018-01-01 até 2023-06-30. Totalizando cinco (05) anos, mais os restantes seis (06) meses do 2023.<br><br>
 Portfólios:<br> Os portfólios estão compostos pelas seguintes empresas:<br>
@@ -181,4 +183,37 @@ Aplicando o método obtemos os seguintes resultados:<br><br>
 Os resultados do método Simulated Annealing foram levemente menores que os resultados do Hill Climb, isso pode-se dever a falta de profundidade na hora da procura dos pesos, para seguintes oportunidades poderiamos colocar um maior número de iterações para conseguir aproveitar ao máximo o potencial dos algoritmos de otimização.
 
 PREVISÃO DE PREÇOS:<br>
+A previsão de preços de ativos financeiros é o processo de tentar prever o valor futuro de ativos financeiros, como ações, títulos, moedas, commodities e outros instrumentos de investimento. Essa previsão é uma parte essencial da tomada de decisões de investimento e gestão de portfólio. O objetivo principal da previsão de preços de ativos financeiros é antecipar o movimento dos preços para tomar decisões informadas sobre comprar, vender ou manter esses ativos.<br><br>
 Neste ponto aplicaremos tanto a simulação de Monte Carlo e Arima para comparação de resultados com o algoritmo de aprendizagem profunda Long Short Term Memory. 
+<br><br>
+
+SIMULAÇÃO DE MONTE CARLO:<br>
+A simulação de Monte Carlo é uma técnica estatística e computacional que utiliza números aleatórios e probabilidades para modelar o comportamento de sistemas complexos ou processos que envolvem incerteza.<br>
+Na aplicação do Monte Carlo, fazemos uso do movimento browniano geométrico (GBM) que ajuda descrever o comportamento dos preços dos ativo financeiros. Depois de aplicar a nossa função monte_carlo_previsao, graficaremos as nossas previsões, que tem como premisas, simular os seguintes 28 dias, com 30 simulações distintas.<br><br>
+Para o Portfólio LB, específicamente nas ações BBAS3, temos a seguinte Simulação:<br>
+![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/11db7073-d632-4b05-a167-ca74fc8af7a2)<br><br>
+Por outra parte, para o Portfólio TN, específicamente nas ações BBAS3, temos a seguinte Simulação:<br>
+![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/67277b12-8366-4435-8875-d5b1e7c6b79e)<br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
