@@ -3,7 +3,7 @@ Por David Panduro 💻<br><br>
 ![image](https://github.com/DavidPanduro/portfolio_invest_otimization/assets/45201867/1ff6e2db-01b1-47f0-b125-a2b674c0581a)<br>
 
 CONTEXTO:<br>
-Desenvolvemos a otimização de três (03) portfólios composto por ações de três (03) empresas (que no inicio do 2023 foram sugeridos por reconhecidos Investidores Brasileiros, que não serão explícitamente mencionados 👀) da bolsa brasileira 🇧🇷, aplicando algoritmos de otimização e aprendizagem profunda em cenários de risco não sistemático, analisando os riscos e procurando maximizar os rendimentos do portfólio ao final do período. <br> <br>
+Desenvolvemos a otimização de três (03) portfólios composto por ações de três (03) empresas (que no inicio do 2023 foram sugeridos por reconhecidos Investidores Brasileiros, que não serão explícitamente mencionados) da bolsa brasileira 🇧🇷, aplicando algoritmos de otimização e aprendizagem profunda em cenários de risco não sistemático, analisando os riscos e procurando maximizar os rendimentos do portfólio ao final do período. <br> <br>
 OBJETIVO:<br>
 O objetivo é encontrar a alocação de ativos que maximize o retorno esperado ou minimize o risco, considerando restrições específicas. A combinação de deep learning e algoritmos genéticos é uma abordagem interessante para abordar esse problema complexo. <br><br>
 BASES: <br> 
